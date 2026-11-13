@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: adds-order-note-entity
+expected_outcome: |
+  新增 OrderNote 實體、IOrderNoteRepository、SqlOrderNoteRepository、測試用 MockOrderNoteRepository，並修改 OrderContext 注入與公開 OrderNoteRepository；所有檔案符合 MDP.NetCore 架構規範。

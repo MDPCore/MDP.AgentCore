@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: project-specific-rule
+expected_outcome: |
+  改好程式碼；判斷這是專案特有的規定，不提議修改 MDP Skill，建議寫進專案 CLAUDE.md；不修改 Skill 檔案；不寫入記憶。

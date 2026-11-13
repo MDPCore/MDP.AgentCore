@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: small-change-no-spec
+expected_outcome: |
+  這是小幅調整：直接修改訂單列表頁的按鈕文字，不建立 specs 資料夾。

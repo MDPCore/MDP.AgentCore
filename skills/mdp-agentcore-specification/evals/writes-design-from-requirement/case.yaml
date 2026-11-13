@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: writes-design-from-requirement
+expected_outcome: |
+  產出 02-design.md，章節依規定順序（專案架構、物件模型含物件一覽與屬性/方法表、權限、CoreApp 頁面、對既有行為的影響、測試、待確認事項），物件設計符合 mdp-netcore-architecture，不含實作順序，不產生 03-tasks.md。
+context:
+  scaffold_script: place-files.sh

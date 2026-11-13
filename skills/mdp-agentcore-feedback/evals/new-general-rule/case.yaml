@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: new-general-rule
+expected_outcome: |
+  改好程式碼；判斷這是可通用的 SQL Repository 寫法，依固定格式提議在 mdp-netcore-architecture 的 references/architecture.md 第 11 章新增規則（位置、完整規則句子、理由），並等使用者確認；尚未修改 Skill 檔案；不寫入記憶。

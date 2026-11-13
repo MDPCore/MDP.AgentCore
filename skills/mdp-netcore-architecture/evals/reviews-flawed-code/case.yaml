@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: reviews-flawed-code
+expected_outcome: |
+  審查報告逐一指出兩個檔案違反架構規範之處（namespace 寫法、成員標頭、Contracts、IValidatableObject、Context 設定 CreateTime、Entity 存取 Repository、! 取反、DI 註冊方式、nowTime 參數、提前結束沒寫成單行等），並給出改法。
+context:
+  scaffold_script: place-files.sh

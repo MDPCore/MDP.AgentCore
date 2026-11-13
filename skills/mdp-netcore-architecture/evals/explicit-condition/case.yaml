@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: explicit-condition
+expected_outcome: |
+  在 OrderContext 新增方法，參數檢查放在 #region Contracts，判斷式寫明 == true／== false，依賴現在時間的部分有 DateTime? nowTime = null。
