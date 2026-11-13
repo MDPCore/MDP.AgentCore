@@ -1,6 +1,6 @@
-# 0001 訂單模組 — 實作任務
+# 0001 訂單模組 — 任務拆解
 
-依據：`01-requirement.md`、`02-design.md`。依 T1 → T10 的順序實作，每個 task 完成後執行 `dotnet build src/CLK.OrderGain.sln`（有單元測試的 task 另執行 `dotnet test src/MBS.Orders.Tests/MBS.Orders.Tests.csproj`），並把該 task 的「完成」打勾。規格有缺漏或矛盾時停下來詢問，不自行補上。
+依據：`01-requirement.md`、`02-design.md`。依 T1 → T10 的順序實作，每個任務完成後執行 `dotnet build src/CLK.OrderGain.sln`（有單元測試的任務另執行 `dotnet test src/MBS.Orders.Tests/MBS.Orders.Tests.csproj`），並把該任務的「完成」打勾。規格有缺漏或矛盾時停下來詢問，不自行補上。
 
 ## T1 建立 `MBS.Orders` 領域專案與測試專案
 
