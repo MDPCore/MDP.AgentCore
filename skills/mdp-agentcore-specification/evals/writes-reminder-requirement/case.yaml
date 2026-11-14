@@ -1,4 +1,4 @@
 schema_version: "1.1"
 name: writes-reminder-requirement
 expected_outcome: |
-  在 specs/ 新增下一個編號的功能資料夾（0002-...），產出 01-requirement.md，章節完整且順序正確，驗收條件用 Given/When/Then，依實際程式碼寫出對既有行為的影響，不確定的事列在待決事項；不產生 02-design.md。
+  在 specs/ 新增下一個編號的功能資料夾（0002-...），產出 01-requirement.md，章節完整且順序正確，驗收條件用 Given/When/Then，依實際程式碼寫出對既有行為的影響，不確定的事列在待決事項，並在回覆中逐一詢問；不產生 02-design.md。

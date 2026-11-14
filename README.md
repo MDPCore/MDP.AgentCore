@@ -85,32 +85,33 @@ MDP.AgentCore/
 
 ```
 為新功能建立 specs/NNNN-<功能中文名>/01-requirement.md。
-
-功能描述：
-<用白話寫：誰、要做什麼、為什麼>
-
-請先閱讀相關的現有程式碼，把會改變的既有行為寫進「對既有行為的影響」。
-有疑問的地方列進「待決事項」，不要自行假設。
 ```
+
+只給功能名稱時，AI 會先問功能描述（誰、要做什麼、為什麼）；也可以直接接在指令後面寫出來。寫完後，AI 會逐一詢問每個待決事項，直到全部決定。
 
 **系統設計**
 
 ```
-請依 specs/NNNN-<功能中文名>/01-requirement.md 撰寫同資料夾下的 02-design.md。
-如果 01-requirement.md 有缺漏或矛盾，先停下來問我，不要自行補上。
+請依 specs/NNNN-<功能中文名>/01-requirement.md 建立 02-design.md。
 ```
+
+AI 會套用專案技術對應的架構規範；01-requirement.md 有缺漏或矛盾時，會先停下來問。
 
 **任務拆解**
 
 ```
-請依 specs/NNNN-<功能中文名>/02-design.md 產出 03-tasks.md。
+請依 specs/NNNN-<功能中文名>/02-design.md 建立 03-tasks.md。
 ```
+
+AI 會把設計拆成每個都能在一次對話內完成的任務，並排好順序；02-design.md 有缺漏或矛盾時，會先停下來問。
 
 **程式開發**
 
 ```
 依 specs/NNNN-<功能中文名>/03-tasks.md 實作全部任務。
 ```
+
+AI 會依序一次做一個任務，測試通過、打勾後才做下一個；測試失敗或規格有疑問時，會停下來問。只做單一任務時，把「全部任務」改成任務編號，例如「實作 T2」。
 
 完整的流程與文件格式見 [specification.md](skills/mdp-agentcore-specification/references/specification.md)，範例見 [specs/0001-訂單模組](specs/0001-訂單模組/)。
 
