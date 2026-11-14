@@ -1,6 +1,6 @@
 ---
 name: mdp-agentcore-specification
-description: MDP.AgentCore 的功能規格流程（規格驅動開發 SDD）：在 specs/NNNN-功能名/ 依序產出 01-requirement.md（需求分析）、02-design.md（系統設計）、03-tasks.md（任務拆解），再依任務逐一實作。只要使用者要開發新功能、寫需求、寫使用者故事或驗收條件、做系統設計、拆解任務、修改 specs/ 底下的文件，或說「依 03-tasks.md 實作全部任務」「實作 Tn」，都要使用這個 Skill，即使使用者沒有提到「規格」或「SDD」。
+description: MDP.AgentCore 的功能規格流程（規格驅動開發 SDD）：在 specs/NNNN-需求名/ 依序產出 01-requirement.md（需求分析）、02-design.md（系統設計）、03-tasks.md（任務拆解），再依任務逐一實作。只要使用者要開發新功能、提出新需求、寫需求、寫使用者故事或驗收條件、做系統設計、拆解任務、修改 specs/ 底下的文件，或說「依 03-tasks.md 實作全部任務」「實作 Tn」，都要使用這個 Skill，即使使用者沒有提到「規格」或「SDD」。
 ---
 
 # MDP.AgentCore 功能規格

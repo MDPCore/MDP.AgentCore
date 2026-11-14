@@ -1,4 +1,4 @@
 schema_version: "1.1"
 name: asks-for-feature-description
 expected_outcome: |
-  使用者只給了功能名稱，沒有說明誰、要做什麼、為什麼：先問使用者功能描述，不建立 specs 資料夾或 01-requirement.md。
+  使用者只給了需求名稱，沒有說明誰、要做什麼、為什麼：先問使用者需求描述，不建立 specs 資料夾或 01-requirement.md。
