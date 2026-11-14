@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: library-usage-not-rule
+expected_outcome: |
+  修正日曆的參數，讓所有日期都能選；判斷這是日曆元件本身的用法，不提議寫進任何 MDP Skill 的 references 文件，也不建議寫進專案 CLAUDE.md；沒有修改 .claude/skills 或 CLAUDE.md；不寫入記憶。

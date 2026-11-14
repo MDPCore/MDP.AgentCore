@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: conflicting-instruction
+expected_outcome: |
+  不直接照做；引用 mdp-agentcore-specification 的 references/specification.md 第 3 章「只談需求，不談實作技術」的規則原文，說明照指令做會違反什麼，請使用者選擇照規則做、這次例外或修改規則；使用者回答前沒有修改任何檔案；不寫入記憶。

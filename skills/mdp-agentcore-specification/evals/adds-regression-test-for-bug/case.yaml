@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: adds-regression-test-for-bug
+expected_outcome: |
+  修正 Orders 模組送出客戶回條時的檢查錯誤，並在 Orders 模組的測試專案加上一個能重現這個錯誤的單元測試（測試名稱寫出錯誤情境），執行後通過；若該功能有 specs 文件，一併把測試加進 02-design.md 的「### 6. 測試」與 03-tasks.md 對應任務。
